@@ -113,7 +113,7 @@ button {
     background-color: #e5e7eb;
     color: #1f2937;
     padding: 5em;
-    height: 150px;
+    height: 200px;
 
 }
 
@@ -127,5 +127,44 @@ button {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+    margin-bottom: 2em;
+}
+
+.bottom1 {
+    background-color: #3882f6;
+    width: 600px;
+    border-radius: 5px;
+    color: white;
+    align-content: center;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    margin: 0 auto;
+    margin-top: 2em;
     
+}   
+
+.text1 {
+    font-weight: bolder;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.text2 {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    width: 20%;
+    height: 30px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: .5em;
+    font-weight: bolder;
+    margin-top: 2em;
 }
