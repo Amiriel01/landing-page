@@ -1,5 +1,9 @@
+* {
+    border: 1px solid pink;
+}
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -8,6 +12,7 @@ html, body {
 .header {
     background-color: #1f2937;
     color: white;
+    flex-shrink: 0;
 }
 
 .top1 {
@@ -16,7 +21,6 @@ html, body {
     padding-bottom: 1em;
     margin-left: 13em;
     margin-right: 11em;
-    
 }
 
 .image1 {
@@ -32,6 +36,7 @@ ul {
     align-items: center;
     list-style-type: none;
     margin-right: 2em;
+    justify-content: space-between;
 }
 
 a {
@@ -58,12 +63,10 @@ a {
 }
 
 .image2 {
-   
+
     height: 250px;
     width: 450px;
     padding: 1em;
-    j
-    
 }
 
 button {
@@ -77,4 +80,31 @@ button {
 .site-about {
     margin-bottom: 8px;
     font-size: 18px;
+}
+
+.mid1 {
+    padding: 3em;
+    color: #1f2937;
+    text-align: center;
+}
+
+.mid-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.pics-and-text {
+    display: flex;
+    justify-content: center;
+}
+
+.pics-and-text .one {
+    width: 500px;
+}
+
+.image3 {
+    height: 250px;
+    flex-direction: row;
+    width: 350px;
 }
