@@ -108,3 +108,24 @@ button {
     flex-direction: row;
     width: 350px;
 }
+
+.mid2 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding: 5em;
+    height: 150px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    
+}
