@@ -8,9 +8,11 @@ I am creating a webpage to practice the skills I have learned using html and css
 
 Webpage Images:
 ![](Images/webpagetop.png)
+![](Images/webpagebottom.png)
 
 Credits:
 
 I found the logo icon on iStock.
+
 I found all dog images on pixabay.
 
